@@ -7,55 +7,64 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="header-main menu">
+    <header>
+        <section class="flex-container menu">
         <h1 id="title">FlexTurismos</h1>
-        <ul class="itens">
-            <li><a href="#quem-somos">Quem Somos</a></li>
-            <li><a href="#servicos">Serviços</a></li>
-            <li><a href="#planos">Planos</a></li>
-        </ul>
+            <nav>
+                <ul class="list-itens">
+                    <li><a href="#quem-somos">Quem Somos</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#planos">Planos</a></li>
+                </ul>
+            </nav>
+        </section>
     </header>
 
-    <section>
-        <header>
+    <section class="flex-container presentation">
+        <article class="text-presentation">
             <h2>Flex <br>Turismos</h2>
             <p>O melhor serviço para você!</p>
             <a href="">Saiba Mais!</a>
-        </header>
+        </article>
+        <figure>
             <img src="./images/0-main.png" alt="banner de apresentação">
+        </figure>
     </section>
 
-    <section>
-            <img src="./images/1-quem-somos.png" alt="balcão de atendimento">
+    <section class="flex-container" id="quem-somos">
         <article>
-            <header>
-                <h2>Quem somos</h2>
-            </header>
+            <h2>Quem somos</h2>
             <p>É um fato estabelecido há muito tempo que um leitor se distrairá com o conteúdo legível de uma página ao olhar para seu layout.</p>
             <p>O ponto de usar Lorem Ipsum é que ele tem uma distribuição mais ou menos normal de letras, ao contrário de usar 'Conteúdo aqui, conteúdo aqui', fazendo com que pareça legível.</p>
         </article>
+        <figure>
+            <img src="./images/1-quem-somos.png" alt="balcão de atendimento">
+        </figure>
     </section>
 
-    <section>
-        <header>
-            <h2>Serviços</h2>
-        </header>
-
+    <section class="flex-container">
+        <h2>Serviços</h2>
         <article>
             <aside>
-                <img src="./images/icon-2.png" alt="hospedagens">
+                <figure>
+                    <img src="./images/icon-2.png" alt="hospedagens">
+                </figure>
                 <p>Hospedagens</p>
                 <a href="#">Comprar Agora</a>
             </aside>
 
             <aside>
-               <img src="./images/icon-1.png" alt="pacote de viagens">
+                <figure>
+                    <img src="./images/icon-1.png" alt="pacote de viagens">
+                </figure>
                <p>Pacotes de viagens</p>
                <a href="#">Comprar Agora</a>
             </aside>
 
             <aside>
-                <img src="./images/icon-3.png" alt="roteiros personalizados">
+                <figure>
+                    <img src="./images/icon-3.png" alt="roteiros personalizados">
+                </figure>
                 <p>Roteiros personalizados</p>
                 <a href="#">Comprar Agora</a>
             </aside>
@@ -63,7 +72,7 @@
         </article>
     </section>
 
-    <section>
+    <section class="flex-container">
 
         <aside>
             <h3>Plano 2</h3>
@@ -101,7 +110,7 @@
         </aside>
     </section>
 
-    <footer>
+    <footer class="flex-container">
         <p>&copy; 2022 CSS Flexbox</p>
         <p>Desenvolvido por: Douglas Mariano</p>
     </footer>
